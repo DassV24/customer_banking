@@ -18,7 +18,6 @@ def create_savings_account(balance, interest_rate, months):
     #  Hint: You need to add the interest as a value, i.e, 0.
     account = Account(balance, interest_rate)
     
-
     # Calculate interest earned
     interest_earned = 0 
     interest_earned = balance * (interest_rate/100 * months/12)
